@@ -41,6 +41,11 @@ body {
   align-items: center;
 }
 
+.main-section-content img {
+    height: 400px;
+    width: 269px;
+}
+
 .title {
   color: #f9faf8;
   font-size: 48px;
