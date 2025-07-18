@@ -13,12 +13,14 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding: 20px 200px;
 }
 
 .main-section-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 8px 0 60px;
 }
 
 .header-logo {
@@ -32,18 +34,28 @@ body {
   display: flex;
   padding: 0;
   margin: 0;
-  gap: 8px;
+  gap: 20px;
 }
 
 .main-section-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
+  gap: 40px;
 }
 
 .main-section-content img {
-    height: 400px;
-    width: 269px;
+  height: 400px;
+  width: 269px;
+  border-radius: 12px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
 }
 
 .title {
@@ -63,6 +75,7 @@ a {
 }
 
 button {
+  font-family: Roboto, sans-serif;
   background-color: #3882f6;
   color: white;
 
