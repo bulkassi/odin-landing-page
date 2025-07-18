@@ -35,7 +35,37 @@ body {
   gap: 8px;
 }
 
+.main-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subtext {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
 a {
   color: white;
   text-decoration: none;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+
+  height: 30px;
+  width: 120px;
+  padding: 8px 24px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
