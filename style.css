@@ -69,6 +69,39 @@ body {
   font-size: 18px;
 }
 
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-section-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-subtext {
+  width: 200px;
+  text-align: center;
+}
+
+.item-image {
+  width: 200px;
+  height: 200px;
+}
+
+.item-image img {
+  width: 200px;
+  height: 200px;
+}
+
 a {
   color: white;
   text-decoration: none;
