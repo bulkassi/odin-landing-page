@@ -73,18 +73,28 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+.info-section-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .info-section-items {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 
 .item-subtext {
@@ -95,11 +105,15 @@ body {
 .item-image {
   width: 200px;
   height: 200px;
+  border-radius: 20px;
+  border: 4px solid #3882f6;
 }
 
 .item-image img {
   width: 200px;
   height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 a {
