@@ -116,6 +116,28 @@ body {
   object-fit: cover;
 }
 
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 450px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.aphorist {
+  flex: 1;
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: right;
+  padding-right: 50px;
+}
+
 a {
   color: white;
   text-decoration: none;
